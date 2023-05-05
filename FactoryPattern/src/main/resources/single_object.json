@@ -1,0 +1,9 @@
+{
+  "@type" : "ModernChair",
+  "height" : 85.0,
+  "width" : 45.0,
+  "weight" : 6.0,
+  "price" : 200.0,
+  "numberOfLegs" : 4,
+  "hasAngleRegulation" : true
+}
