@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a1b0e3c-349b-4d17-9bf4-b1cecd7f509f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FactoryPattern/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FactoryPattern/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FactoryPattern/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FactoryPattern/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FactoryPattern/src/main/java/Serializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FactoryPattern/src/main/java/Serializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FactoryPattern/src/main/java/furnitures/Furniture.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FactoryPattern/src/main/java/furnitures/Furniture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FactoryPattern/src/main/java/furnitures/chairs/Chair.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FactoryPattern/src/main/java/furnitures/chairs/Chair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FactoryPattern/src/main/java/furnitures/coffeeTables/CoffeeTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FactoryPattern/src/main/java/furnitures/coffeeTables/CoffeeTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FactoryPattern/src/main/java/furnitures/sofas/Sofa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FactoryPattern/src/main/java/furnitures/sofas/Sofa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CityPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CityPresenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CityStatistic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CityStatistic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO.java" afterDir="false" />
-    </list>
+    <list default="true" id="5a1b0e3c-349b-4d17-9bf4-b1cecd7f509f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,6 +95,7 @@
       <workItem from="1683405222082" duration="95000" />
       <workItem from="1683407156863" duration="27000" />
       <workItem from="1683407373593" duration="41000" />
+      <workItem from="1683407761873" duration="13000" />
     </task>
     <servers />
   </component>

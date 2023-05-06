@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72f233ea-af1c-4a27-8d1a-c41fca77c5b4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Serializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Serializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/furnitures/Furniture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/furnitures/Furniture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/furnitures/chairs/Chair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/furnitures/chairs/Chair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/furnitures/coffeeTables/CoffeeTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/furnitures/coffeeTables/CoffeeTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/furnitures/sofas/Sofa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/furnitures/sofas/Sofa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SingletonPattern/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SingletonPattern/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SingletonPattern/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SingletonPattern/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SingletonPattern/src/main/java/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SingletonPattern/src/main/java/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SingletonPattern/src/main/java/CityPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SingletonPattern/src/main/java/CityPresenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SingletonPattern/src/main/java/CityStatistic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SingletonPattern/src/main/java/CityStatistic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SingletonPattern/src/main/java/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SingletonPattern/src/main/java/DAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,6 +157,7 @@
       <workItem from="1683406465764" duration="11000" />
       <workItem from="1683406670888" duration="10000" />
       <workItem from="1683407143110" duration="12000" />
+      <workItem from="1683407775738" duration="11000" />
     </task>
     <servers />
   </component>
