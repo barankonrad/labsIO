@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a1b0e3c-349b-4d17-9bf4-b1cecd7f509f" name="Changes" comment="" />
+    <list default="true" id="5a1b0e3c-349b-4d17-9bf4-b1cecd7f509f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FactoryPattern/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FactoryPattern/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FactoryPattern/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FactoryPattern/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FactoryPattern/src/main/java/Serializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FactoryPattern/src/main/java/Serializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FactoryPattern/src/main/java/furnitures/Furniture.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FactoryPattern/src/main/java/furnitures/Furniture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FactoryPattern/src/main/java/furnitures/chairs/Chair.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FactoryPattern/src/main/java/furnitures/chairs/Chair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FactoryPattern/src/main/java/furnitures/coffeeTables/CoffeeTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FactoryPattern/src/main/java/furnitures/coffeeTables/CoffeeTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FactoryPattern/src/main/java/furnitures/sofas/Sofa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FactoryPattern/src/main/java/furnitures/sofas/Sofa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CityPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CityPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CityStatistic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CityStatistic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +31,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/City.java" root0="FORCE_HIGHLIGHTING" />
@@ -33,6 +51,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;grid.search.filter.rows&quot;: &quot;true&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;E:/STUDIA/2 ROK/IO/SingletonPattern&quot;,
@@ -86,11 +105,27 @@
       <workItem from="1683208509086" duration="871000" />
       <workItem from="1683220100104" duration="44000" />
       <workItem from="1683288075682" duration="18000" />
+      <workItem from="1683392372550" duration="850000" />
+      <workItem from="1683401102150" duration="1598000" />
+      <workItem from="1683405222082" duration="95000" />
+      <workItem from="1683407156863" duration="27000" />
+      <workItem from="1683407373593" duration="41000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

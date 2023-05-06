@@ -5,8 +5,8 @@ public class CityPresenter {
 
     public static void displayCity(String name) {
         cities.stream()
-            .filter(temp -> temp.city().toLowerCase().startsWith(name.toLowerCase())
-                || temp.city_ascii().toLowerCase().startsWith(name.toLowerCase()))
-            .forEach(System.out::println);
+                .filter(temp -> temp.city().toLowerCase().startsWith(name.toLowerCase())
+                        || temp.city_ascii().toLowerCase().startsWith(name.toLowerCase()))
+                .forEach(System.out::println);
     }
 }

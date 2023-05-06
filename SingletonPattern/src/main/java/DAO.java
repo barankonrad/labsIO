@@ -11,15 +11,19 @@ import java.util.function.Consumer;
 
 public class DAO {
 
-    private final List<City> cities = new LinkedList<>();
-    private final Map<String, String> continentsToCountry = new HashMap<>();
     private static final DAO INSTANCE = new DAO();
     private static final String CITIES_FILE = "src/main/resources/worldcities.csv";
     private static final String CONTINENTS_FILE = "src/main/resources/continents.csv";
+    private final List<City> cities = new LinkedList<>();
+    private final Map<String, String> continentsToCountry = new HashMap<>();
 
     private DAO() {
         readFile(CITIES_FILE, data -> cities.add(new City(data)));
         readFile(CONTINENTS_FILE, data -> continentsToCountry.put(data[2], data[5]));
+    }
+
+    public static DAO getInstance() {
+        return INSTANCE;
     }
 
     private void readFile(String path, Consumer<String[]> action) {
@@ -33,10 +37,6 @@ public class DAO {
         catch(IOException e) {
             e.printStackTrace();
         }
-    }
-
-    public static DAO getInstance() {
-        return INSTANCE;
     }
 
     public List<City> getCities() {
