@@ -14,9 +14,9 @@ import lombok.ToString;
 @EqualsAndHashCode
 @JsonTypeInfo(use = JsonTypeInfo.Id.NAME, property = "@type")
 @JsonSubTypes({
-    @JsonSubTypes.Type(value = Chair.class, name = "Chair"),
-    @JsonSubTypes.Type(value = Sofa.class, name = "Sofa"),
-    @JsonSubTypes.Type(value = CoffeeTable.class, name = "CoffeeTable")
+        @JsonSubTypes.Type(value = Chair.class, name = "Chair"),
+        @JsonSubTypes.Type(value = Sofa.class, name = "Sofa"),
+        @JsonSubTypes.Type(value = CoffeeTable.class, name = "CoffeeTable")
 })
 public abstract class Furniture {
     private final double height;

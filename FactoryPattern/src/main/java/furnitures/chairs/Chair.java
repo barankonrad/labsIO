@@ -12,15 +12,16 @@ import lombok.ToString;
 @EqualsAndHashCode(callSuper = true)
 @JsonTypeInfo(use = JsonTypeInfo.Id.NAME, property = "@type")
 @JsonSubTypes({
-    @JsonSubTypes.Type(value = ModernChair.class, name = "ModernChair"),
-    @JsonSubTypes.Type(value = VictorianChair.class, name = "VictorianChair"),
-    @JsonSubTypes.Type(value = ArtDecoChair.class, name = "ArtDecoChair"),
+        @JsonSubTypes.Type(value = ModernChair.class, name = "ModernChair"),
+        @JsonSubTypes.Type(value = VictorianChair.class, name = "VictorianChair"),
+        @JsonSubTypes.Type(value = ArtDecoChair.class, name = "ArtDecoChair"),
 })
 public abstract class Chair extends Furniture {
 
     private final boolean hasAngleRegulation;
 
-    public Chair(int numberOfLegs, double height, double width, double weight, double price, boolean hasAngleRegulation) {
+    public Chair(int numberOfLegs, double height, double width, double weight, double price,
+            boolean hasAngleRegulation) {
         super(numberOfLegs, height, width, weight, price);
         this.hasAngleRegulation = hasAngleRegulation;
     }

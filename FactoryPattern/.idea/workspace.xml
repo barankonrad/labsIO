@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72f233ea-af1c-4a27-8d1a-c41fca77c5b4" name="Changes" comment="" />
+    <list default="true" id="72f233ea-af1c-4a27-8d1a-c41fca77c5b4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Serializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Serializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/furnitures/Furniture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/furnitures/Furniture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/furnitures/chairs/Chair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/furnitures/chairs/Chair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/furnitures/coffeeTables/CoffeeTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/furnitures/coffeeTables/CoffeeTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/furnitures/sofas/Sofa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/furnitures/sofas/Sofa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SingletonPattern/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SingletonPattern/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SingletonPattern/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SingletonPattern/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SingletonPattern/src/main/java/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SingletonPattern/src/main/java/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SingletonPattern/src/main/java/CityPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SingletonPattern/src/main/java/CityPresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SingletonPattern/src/main/java/CityStatistic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SingletonPattern/src/main/java/CityStatistic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SingletonPattern/src/main/java/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SingletonPattern/src/main/java/DAO.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +32,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -31,7 +54,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/STUDIA/2 ROK/IO/FactoryPattern — kopia&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Programowanie/Kurs Javs/Locations NIO&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -40,7 +64,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.28390804&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -91,12 +115,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="java in FactoryPattern" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FactoryPattern" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SerializationTest" />
-        <item itemvalue="JUnit.SerializationTest.shouldReturnTrueWhenReadingWrittenFile" />
+        <item itemvalue="JUnit.java in FactoryPattern" />
         <item itemvalue="JUnit.SerializationTest.shouldReturnTrueWhenSerializingList" />
         <item itemvalue="JUnit.SerializationTest.shouldReturnTrueWhenSerializingBothWays" />
+        <item itemvalue="JUnit.SerializationTest.shouldReturnTrueWhenReadingWrittenFile" />
       </list>
     </recent_temporary>
   </component>
@@ -125,13 +158,36 @@
       <workItem from="1683298487362" duration="89000" />
       <workItem from="1683298641271" duration="879000" />
       <workItem from="1683312038706" duration="3961000" />
+      <workItem from="1683381384332" duration="54000" />
+      <workItem from="1683381456905" duration="437000" />
+      <workItem from="1683392329471" duration="35000" />
+      <workItem from="1683397681575" duration="605000" />
+      <workItem from="1683401072095" duration="29000" />
+      <workItem from="1683402705289" duration="111000" />
+      <workItem from="1683404709422" duration="509000" />
+      <workItem from="1683405318576" duration="852000" />
+      <workItem from="1683406382329" duration="70000" />
+      <workItem from="1683406465764" duration="11000" />
+      <workItem from="1683406670888" duration="10000" />
+      <workItem from="1683407143110" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FactoryPattern$SerializationTest.ic" NAME="SerializationTest Coverage Results" MODIFIED="1683315739514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/FactoryPattern$SerializationTest.ic" NAME="SerializationTest Coverage Results" MODIFIED="1683406092709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

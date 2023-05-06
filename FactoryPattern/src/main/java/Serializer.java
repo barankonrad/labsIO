@@ -11,8 +11,8 @@ public class Serializer {
     public static ArrayNode serializeList(List<Furniture> furnitureCollection) {
         ArrayNode jsonArray = objectMapper.createArrayNode();
         furnitureCollection.stream()
-            .map(objectMapper::valueToTree)
-            .forEach(jsonObject -> jsonArray.add((JsonNode) jsonObject));
+                .map(objectMapper::valueToTree)
+                .forEach(jsonObject -> jsonArray.add((JsonNode) jsonObject));
 
         return jsonArray;
     }
