@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72f233ea-af1c-4a27-8d1a-c41fca77c5b4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../SingletonPattern/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SingletonPattern/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JsonFileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JsonFileWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/list.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/list.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SerializationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SerializationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,11 +75,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializationTest.shouldReturnTrueWhenReadingWrittenFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SerializationTest.shouldReturnTrueWhenReadingWrittenListFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FactoryPattern" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SerializationTest" />
-      <option name="METHOD_NAME" value="shouldReturnTrueWhenReadingWrittenFile" />
+      <option name="METHOD_NAME" value="shouldReturnTrueWhenReadingWrittenListFile" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,10 +116,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SerializationTest" />
+        <item itemvalue="JUnit.SerializationTest.shouldReturnTrueWhenReadingWrittenListFile" />
         <item itemvalue="JUnit.java in FactoryPattern" />
         <item itemvalue="JUnit.SerializationTest.shouldReturnTrueWhenSerializingList" />
         <item itemvalue="JUnit.SerializationTest.shouldReturnTrueWhenSerializingBothWays" />
-        <item itemvalue="JUnit.SerializationTest.shouldReturnTrueWhenReadingWrittenFile" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +161,12 @@
       <workItem from="1683406670888" duration="10000" />
       <workItem from="1683407143110" duration="12000" />
       <workItem from="1683407775738" duration="11000" />
+      <workItem from="1683460663826" duration="17000" />
+      <workItem from="1683460773815" duration="11000" />
+      <workItem from="1683496319242" duration="235000" />
+      <workItem from="1683496715398" duration="432000" />
+      <workItem from="1683530539392" duration="684000" />
+      <workItem from="1683531251294" duration="1242000" />
     </task>
     <servers />
   </component>
@@ -176,6 +185,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FactoryPattern$SerializationTest.ic" NAME="SerializationTest Coverage Results" MODIFIED="1683406092709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/FactoryPattern$SerializationTest.ic" NAME="SerializationTest Coverage Results" MODIFIED="1683532440102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

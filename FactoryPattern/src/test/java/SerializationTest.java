@@ -1,4 +1,5 @@
 import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.node.ArrayNode;
 import factories.ArtDecoFactory;
 import factories.FurnitureFactory;
 import factories.ModernFactory;
@@ -12,7 +13,6 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -54,17 +54,37 @@ public class SerializationTest {
 
     @Test
     @SneakyThrows(IOException.class)
-    public void shouldReturnTrueWhenReadingWrittenFile() {
+    public void shouldReturnTrueWhenReadingWrittenObjectFile() {
         // arrange
         Chair originalChair = modernFactory.createChair();
 
         // act
         JsonNode chairInJson = Serializer.serializeObject(originalChair);
         JsonFileWriter.printToFile(chairInJson, JsonFileWriter.SINGLE_OBJECT_FILE);
-        String readJson = Files.readString(Paths.get(JsonFileWriter.SINGLE_OBJECT_FILE));
+        String readJson = Files.readString(JsonFileWriter.SINGLE_OBJECT_FILE.toPath());
         Furniture deserializedChair = Deserializer.deserializeObject(readJson);
 
         // assert
         Assert.assertEquals(deserializedChair, originalChair);
+    }
+
+    @Test
+    @SneakyThrows(IOException.class)
+    public void shouldReturnTrueWhenReadingWrittenListFile() {
+        // arrange
+        List<Furniture> originalList = new LinkedList<>();
+        originalList.add(modernFactory.createCoffeeTable());
+        originalList.add(artDecoFactory.createSofa());
+        originalList.add(victorianFactory.createChair());
+        originalList.add(modernFactory.createSofa());
+
+        // act
+        ArrayNode listInJson = Serializer.serializeList(originalList);
+        JsonFileWriter.printToFile(listInJson, JsonFileWriter.LIST_FILE);
+        String readJson = Files.readString(JsonFileWriter.LIST_FILE.toPath());
+        var deserializedList = Deserializer.deserializeList(readJson);
+
+        // assert
+        Assert.assertEquals(deserializedList, originalList);
     }
 }
