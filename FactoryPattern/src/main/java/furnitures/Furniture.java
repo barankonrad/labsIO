@@ -32,6 +32,4 @@ public abstract class Furniture {
         this.weight = weight;
         this.price = price;
     }
-
-
 }
