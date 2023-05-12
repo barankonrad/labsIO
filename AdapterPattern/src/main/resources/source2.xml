@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--https://www.netdania.com/Products/XMLDataService/XMLDataService.aspx-->
+<datafeed>
+    <quote f25="3M COMPANY COMMON STOCK" f6="99.6321" f14="-1.1479" f15="-1.13902" f2="101.27" f3="99.27">12 May 19:16</quote>
+    <quote f25="ALCOA CORPORATION COMMON STOCK" f6="35.275" f14="-0.055" f15="-0.15568" f2="35.5" f3="35.03">12 May 19:16</quote>
+    <quote f25="AMERICAN EXPRESS COMPANY COMMON STOCK" f6="147.44" f14="-0.55" f15="-0.37165" f2="149.32" f3="147.089">12 May 19:16</quote>
+    <quote f25="AT&amp;T INC." f6="17.035" f14="0.075" f15="0.44222" f2="17.19" f3="16.95">12 May 19:16</quote>
+    <quote f25="BANK OF AMERICA CORPORATION COMMON STOCK" f6="26.94" f14="-0.45" f15="-1.64294" f2="27.55" f3="26.88">12 May 19:16</quote>
+    <quote f25="BOEING COMPANY (THE) COMMON STOCK" f6="199.6" f14="-2.24" f15="-1.10979" f2="203.11" f3="198.82">12 May 19:16</quote>
+    <quote f25="CATERPILLAR INC. COMMON STOCK" f6="208.62" f14="-1.41" f15="-0.67133" f2="212.55" f3="207.93">12 May 19:16</quote>
+    <quote f25="CHEVRON CORPORATION COMMON STOCK" f6="156.24" f14="0.02" f15="0.0128" f2="157.93" f3="155.56">12 May 19:16</quote>
+    <quote f25="CISCO SYSTEMS INC. - COMMON STOCK" f6="46.635" f14="0.265" f15="0.57149" f2="46.81" f3="46.28">12 May 19:16</quote>
+    <quote f25="COCA-COLA COMPANY (THE) COMMON STOCK" f6="64.065" f14="0.205" f15="0.32101" f2="64.14" f3="63.7">12 May 19:16</quote>
+    <quote f25="DUPONT DE NEMOURS INC. COMMON STOCK" f6="63.45" f14="-0.41" f15="-0.64203" f2="64.49" f3="63.22">12 May 19:16</quote>
+    <quote f25="EXXON MOBIL CORPORATION COMMON STOCK" f6="105.338" f14="-0.452" f15="-0.42726" f2="107.01" f3="104.775">12 May 19:16</quote>
+    <quote f25="GENERAL ELECTRIC COMPANY COMMON STOCK" f6="98.235" f14="-1.275" f15="-1.28128" f2="100" f3="97.71">12 May 19:16</quote>
+    <quote f25="HP INC. COMMON STOCK" f6="28.77" f14="-0.62" f15="-2.10956" f2="29.35" f3="28.53">12 May 19:16</quote>
+    <quote f25="HOME DEPOT INC. (THE) COMMON STOCK" f6="289.637" f14="1.947" f15="0.67677" f2="290.47" f3="287.45">12 May 19:16</quote>
+    <quote f25="INTEL CORPORATION - COMMON STOCK" f6="28.845" f14="-0.015" f15="-0.05198" f2="29.1" f3="28.72">12 May 19:16</quote>
+    <quote f25="INTERNATIONAL BUSINESS MACHINES CORPORATION COMMON" f6="122.34" f14="1.44" f15="1.19107" f2="122.39" f3="121.11">12 May 19:16</quote>
+    <quote f25="JOHNSON &amp; JOHNSON COMMON STOCK" f6="160.34" f14="-0.65" f15="-0.40375" f2="161.56" f3="160.01">12 May 19:16</quote>
+    <quote f25="JP MORGAN CHASE &amp; CO. COMMON STOCK" f6="133.52" f14="-2.53" f15="-1.85961" f2="136.99" f3="133.13">12 May 19:16</quote>
+    <quote f25="MCDONALD'S CORPORATION COMMON STOCK" f6="295.42" f14="0.63" f15="0.21371" f2="296.27" f3="294.31">12 May 19:16</quote>
+    <quote f25="MERCK &amp; COMPANY INC. COMMON STOCK (NEW)" f6="116.93" f14="-0.62" f15="-0.52744" f2="118.55" f3="116.695">12 May 19:16</quote>
+    <quote f25="MICROSOFT CORPORATION - COMMON STOCK" f6="307.562" f14="-2.548" f15="-0.82164" f2="310.65" f3="306.6">12 May 19:16</quote>
+    <quote f25="PFIZER INC. COMMON STOCK" f6="37.3001" f14="-0.2799" f15="-0.74481" f2="37.72" f3="37.23">12 May 19:16</quote>
+    <quote f25="PROCTER &amp; GAMBLE COMPANY (THE) COMMON STOCK" f6="155.38" f14="0.99" f15="0.64123" f2="155.49" f3="154.39">12 May 19:16</quote>
+    <quote f25="THE TRAVELERS COMPANIES INC. COMMON STOCK" f6="181.26" f14="-1.55" f15="-0.84787" f2="184.49" f3="181.11">12 May 19:16</quote>
+    <quote f25="N/A" f6="N/A" f14="N/A" f15="N/A" f2="N/A" f3="N/A">N/A</quote>
+    <quote f25="VERIZON COMMUNICATIONS INC. COMMON STOCK" f6="37.47" f14="-0.13" f15="-0.34574" f2="37.745" f3="37.41">12 May 19:16</quote>
+    <quote f25="WALMART INC. COMMON STOCK" f6="153.07" f14="-0.05" f15="-0.03265" f2="154.07" f3="152.71">12 May 19:16</quote>
+    <quote f25="WALT DISNEY COMPANY (THE) COMMON STOCK" f6="91.675" f14="-0.635" f15="-0.6879" f2="92.88" f3="91.24">12 May 19:16</quote>
+</datafeed>
