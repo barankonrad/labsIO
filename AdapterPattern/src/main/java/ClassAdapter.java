@@ -33,16 +33,16 @@ public class ClassAdapter extends DataServiceJSON implements IClientServiceJSON 
     }
 
     private static JsonNode parseAttributesOf(Element quote) {
-        Map<String, Object> objectMapping = new HashMap<>();
+        Map<String, Object> mappedObject = new HashMap<>();
         try {
-            objectMapping.put("Name", quote.getAttribute("f25"));
-            objectMapping.put("Last", Double.parseDouble(quote.getAttribute("f6")));
-            objectMapping.put("Change", Double.parseDouble(quote.getAttribute("f14")));
-            objectMapping.put("% Change", Double.parseDouble(quote.getAttribute("f15")));
-            objectMapping.put("High", Double.parseDouble(quote.getAttribute("f2")));
-            objectMapping.put("Low", Double.parseDouble(quote.getAttribute("f3")));
-            objectMapping.put("Time", quote.getTextContent());
-            return objectMapper.valueToTree(objectMapping);
+            mappedObject.put("Name", quote.getAttribute("f25"));
+            mappedObject.put("Last", Double.parseDouble(quote.getAttribute("f6")));
+            mappedObject.put("Change", Double.parseDouble(quote.getAttribute("f14")));
+            mappedObject.put("% Change", Double.parseDouble(quote.getAttribute("f15")));
+            mappedObject.put("High", Double.parseDouble(quote.getAttribute("f2")));
+            mappedObject.put("Low", Double.parseDouble(quote.getAttribute("f3")));
+            mappedObject.put("Time", quote.getTextContent());
+            return objectMapper.valueToTree(mappedObject);
         }
         catch(NumberFormatException e) {
             System.out.println(e.getMessage());
@@ -68,12 +68,12 @@ public class ClassAdapter extends DataServiceJSON implements IClientServiceJSON 
     @Override
     public double getChangeVariance(File file) {
         ArrayNode jsonFormat = convertToJson(file);
-        return getChangeVariance(jsonFormat);
+        return calculateChangeVariance(jsonFormat);
     }
 
     @Override
     public double getChangePercentageVariance(File file) {
         ArrayNode jsonFormat = convertToJson(file);
-        return getChangePercentageVariance(jsonFormat);
+        return calculateChangePercentageVariance(jsonFormat);
     }
 }

@@ -10,12 +10,12 @@ public class DataServiceJSON {
     private JsonNode document;
 
     private List<Double> getListOf(String attribute) {
-        List<Double> list = new ArrayList<>();
-        for(JsonNode quote : document) {
-            double value = quote.get(attribute).doubleValue();
-            list.add(value);
+        List<Double> values = new ArrayList<>();
+        for(JsonNode node : document) {
+            double parsedValue = node.get(attribute).doubleValue();
+            values.add(parsedValue);
         }
-        return list;
+        return values;
     }
 
     private ArrayNode filterNegativeValues(ArrayNode jsonNodes) {
@@ -35,7 +35,7 @@ public class DataServiceJSON {
         return filtered;
     }
 
-    private double calculateVarianceOf(String attribute) {
+    private double varianceOf(String attribute) {
         var values = getListOf(attribute);
         double mean = values.stream()
                 .mapToDouble(v -> v)
@@ -48,13 +48,13 @@ public class DataServiceJSON {
                 .orElse(0.0);
     }
 
-    public double getChangeVariance(ArrayNode jsonNodes) {
+    public double calculateChangeVariance(ArrayNode jsonNodes) {
         document = filterNegativeValues(jsonNodes);
-        return calculateVarianceOf("Change");
+        return varianceOf("Change");
     }
 
-    public double getChangePercentageVariance(ArrayNode jsonNodes) {
+    public double calculateChangePercentageVariance(ArrayNode jsonNodes) {
         document = filterNegativeValues(jsonNodes);
-        return calculateVarianceOf("% Change");
+        return varianceOf("% Change");
     }
 }

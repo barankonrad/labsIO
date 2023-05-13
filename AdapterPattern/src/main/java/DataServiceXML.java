@@ -30,21 +30,21 @@ public class DataServiceXML {
 
     private List<Double> getListOf(String attribute) {
         NodeList quotes = document.getElementsByTagName("quote");
-        List<Double> list = new ArrayList<>();
+        List<Double> values = new ArrayList<>();
 
         for(int i = 0; i < quotes.getLength(); i++) {
             Element quote = (Element) quotes.item(i);
             try {
                 double parsedValue = Double.parseDouble(quote.getAttribute(attribute));
-                list.add(parsedValue);
+                values.add(parsedValue);
             }
             catch(NumberFormatException e) {
-                list.add(0.0);
+                values.add(0.0);
                 System.out.println("NumberFormatException: " + e.getMessage());
             }
         }
 
-        return list;
+        return values;
     }
 
     private double averageOf(String attribute) {

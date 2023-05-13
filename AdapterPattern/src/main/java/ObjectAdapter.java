@@ -16,7 +16,7 @@ import java.util.Map;
 
 public class ObjectAdapter implements IClientServiceJSON {
     private static final ObjectMapper objectMapper = new ObjectMapper();
-    private DataServiceJSON dataServiceJSON;
+    private final DataServiceJSON dataServiceJSON = new DataServiceJSON();
 
     private static ArrayNode convertToJson(File xmlFile) {
         Document xmlDocument = readIntoDocument(xmlFile);
@@ -34,16 +34,16 @@ public class ObjectAdapter implements IClientServiceJSON {
     }
 
     private static JsonNode parseAttributesOf(Element quote) {
-        Map<String, Object> objectMapping = new HashMap<>();
+        Map<String, Object> mappedObject = new HashMap<>();
         try {
-            objectMapping.put("Name", quote.getAttribute("f25"));
-            objectMapping.put("Last", Double.parseDouble(quote.getAttribute("f6")));
-            objectMapping.put("Change", Double.parseDouble(quote.getAttribute("f14")));
-            objectMapping.put("% Change", Double.parseDouble(quote.getAttribute("f15")));
-            objectMapping.put("High", Double.parseDouble(quote.getAttribute("f2")));
-            objectMapping.put("Low", Double.parseDouble(quote.getAttribute("f3")));
-            objectMapping.put("Time", quote.getTextContent());
-            return objectMapper.valueToTree(objectMapping);
+            mappedObject.put("Name", quote.getAttribute("f25"));
+            mappedObject.put("Last", Double.parseDouble(quote.getAttribute("f6")));
+            mappedObject.put("Change", Double.parseDouble(quote.getAttribute("f14")));
+            mappedObject.put("% Change", Double.parseDouble(quote.getAttribute("f15")));
+            mappedObject.put("High", Double.parseDouble(quote.getAttribute("f2")));
+            mappedObject.put("Low", Double.parseDouble(quote.getAttribute("f3")));
+            mappedObject.put("Time", quote.getTextContent());
+            return objectMapper.valueToTree(mappedObject);
         }
         catch(NumberFormatException e) {
             System.out.println(e.getMessage());
@@ -68,15 +68,13 @@ public class ObjectAdapter implements IClientServiceJSON {
 
     @Override
     public double getChangeVariance(File file) {
-        dataServiceJSON = new DataServiceJSON();
         ArrayNode jsonFormat = convertToJson(file);
-        return dataServiceJSON.getChangeVariance(jsonFormat);
+        return dataServiceJSON.calculateChangeVariance(jsonFormat);
     }
 
     @Override
     public double getChangePercentageVariance(File file) {
-        dataServiceJSON = new DataServiceJSON();
         ArrayNode jsonFormat = convertToJson(file);
-        return dataServiceJSON.getChangePercentageVariance(jsonFormat);
+        return dataServiceJSON.calculateChangePercentageVariance(jsonFormat);
     }
 }

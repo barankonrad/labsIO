@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<datafeed>
+    <quote f25="MOCK COMPANY1" f6="100.78" f14="5" f15="21.12" f2="5" f3="22.03">11 May 19:59</quote>
+    <quote f25="MOCK COMPANY2" f6="35.33" f14="10" f15="43.1" f2="10" f3="31.994">11 May 19:59</quote>
+    <quote f25="MOCK COMPANY3" f6="147.99" f14="15" f15="51.64" f2="15" f3="54.12">11 May 19:59</quote>
+</datafeed>
