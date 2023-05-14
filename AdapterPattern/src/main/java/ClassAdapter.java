@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ClassAdapter extends DataServiceJSON implements IClientServiceJSON {
+public class ClassAdapter extends DataServiceJSON implements ServiceJSON {
     private static final ObjectMapper objectMapper = new ObjectMapper();
 
     private static ArrayNode convertToJson(File xmlFile) {

@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DataServiceXML {
+public class DataServiceXML implements ServiceXML {
 
     private Document document;
 
@@ -47,7 +47,7 @@ public class DataServiceXML {
         return values;
     }
 
-    private double averageOf(String attribute) {
+    private double meanOf(String attribute) {
         List<Double> values = getListOf(attribute);
         return values.stream()
                 .mapToDouble(Double::doubleValue)
@@ -55,13 +55,13 @@ public class DataServiceXML {
                 .orElse(0.0);
     }
 
-    public double calculateAverageHigh(File xmlFile) {
+    public double getHighMean(File xmlFile) {
         readIntoDocument(xmlFile);
-        return averageOf("f2");
+        return meanOf("f2");
     }
 
-    public double calculateAverageLow(File xmlFile) {
+    public double getLowMean(File xmlFile) {
         readIntoDocument(xmlFile);
-        return averageOf("f3");
+        return meanOf("f3");
     }
 }

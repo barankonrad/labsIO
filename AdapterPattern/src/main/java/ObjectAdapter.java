@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ObjectAdapter implements IClientServiceJSON {
+public class ObjectAdapter implements ServiceJSON {
     private static final ObjectMapper objectMapper = new ObjectMapper();
     private final DataServiceJSON dataServiceJSON = new DataServiceJSON();
 

@@ -1,6 +1,6 @@
 import java.io.File;
 
-public interface IClientServiceXML {
+public interface ServiceXML {
     double getLowMean(File file);
     double getHighMean(File file);
 }
