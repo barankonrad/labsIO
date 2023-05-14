@@ -60,6 +60,12 @@ public class DataServiceXML implements ServiceXML {
         return meanOf("f2");
     }
 
+    @Override
+    public double getChangePercentageMean(File file) {
+        readIntoDocument(file);
+        return meanOf("f14");
+    }
+
     public double getLowMean(File xmlFile) {
         readIntoDocument(xmlFile);
         return meanOf("f3");

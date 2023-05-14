@@ -45,4 +45,13 @@ public class ClientTest {
         // assert
         Assert.assertEquals(10, result, 0.001);
     }
+
+    @Test
+    public void getChangePercentageMean(){
+        // act
+        double result = client.getChangePercentageMean(TESTS);
+        // assert
+        Assert.assertEquals(10, result, 0.001);
+    }
+
 }

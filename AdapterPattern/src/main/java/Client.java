@@ -20,4 +20,8 @@ public class Client{
         return dataService.getHighMean(file);
     }
 
+    public double getChangePercentageMean(File file){
+        return dataService.getChangePercentageMean(file);
+    }
+
 }
